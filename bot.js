@@ -1,6 +1,6 @@
 var config = {
-  channels: ["#suhfusudh"],
-  server: "irc.freenode.net",
+  channels: ["#appacademy"],
+  server: "irc.foonetic.net",
   botName: "angelbot"
 };
 
