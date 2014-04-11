@@ -36,7 +36,7 @@ bot.addListener("message", function(from, to, text, message) {
     }).on('error', function(e) {
         console.log("Got error: ", e);
     });
-  } else {
+  } else if(text === "angelbot help") {
     bot.say(config.channels[0], "Type 'angelbot company' to get a company name and description");
   }
 });
